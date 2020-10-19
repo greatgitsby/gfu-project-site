@@ -16,7 +16,15 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Click to view the Project Ideation form
+          Project Ideation Form
+        </a>
+        <a
+          className="App-link"
+          href="mailto:gfuprojects@gmail.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Contact Us
         </a>
       </header>
     </div>
