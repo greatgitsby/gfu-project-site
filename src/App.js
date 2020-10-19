@@ -7,9 +7,9 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
+        <h3>
           GFU Engineering Project Commission
-        </p>
+        </h3>
         <a
           className="App-link"
           href="https://forms.gle/WBk8XgzJiv22jfea7"
