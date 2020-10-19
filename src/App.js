@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from './logo.svg';
+import logo from './gfu.png';
 import './App.css';
 
 function App() {
@@ -8,15 +8,15 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          GFU Engineering Project Commission
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://forms.gle/WBk8XgzJiv22jfea7"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Click to view the Project Ideation form
         </a>
       </header>
     </div>
