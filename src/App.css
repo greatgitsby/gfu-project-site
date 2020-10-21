@@ -15,10 +15,14 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(20px + 2vmin);
+  font-size: calc(15px + 2vmin);
   color: white;
 }
 
+.App-header h3 {
+  margin-bottom: 5px;
+}
+
 .App-link {
-  color: #a2bad1;
+  color: #8bb0d3;
 }

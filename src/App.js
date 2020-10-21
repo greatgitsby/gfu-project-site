@@ -10,6 +10,7 @@ function App() {
         <h3>
           GFU Engineering Project Commission
         </h3>
+        <p>Contact us at gfuprojects@gmail.com</p>
         <a
           className="App-link"
           href="https://forms.gle/WBk8XgzJiv22jfea7"
@@ -17,14 +18,6 @@ function App() {
           rel="noopener noreferrer"
         >
           Project Ideation Form
-        </a>
-        <a
-          className="App-link"
-          href="mailto:gfuprojects@gmail.com"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Contact Us
         </a>
       </header>
     </div>
