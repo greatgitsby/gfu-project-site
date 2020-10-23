@@ -17,10 +17,38 @@
   justify-content: center;
   font-size: calc(15px + 2vmin);
   color: white;
+  padding: 5vw 8vw 8vw 8vw;
+}
+
+@media only screen and (min-width: 1500px) {
+  .App-header {
+    padding-left: 25vw;
+    padding-right: 25vw;
+  }
+
+  .App-header h5 {
+    font-size: calc(15px + 2vmin);
+  }
+  
+  .App-header p {
+    font-size: calc(13px + 2vmin);
+    text-align: left;
+  }
 }
 
 .App-header h3 {
-  margin-bottom: 5px;
+  margin-top: 1px;
+  margin-bottom: 10px;
+}
+
+.App-header h5 {
+  font-size: calc(5px + 2vmin);
+}
+
+.App-header p {
+  font-size: calc(7px + 2vmin);
+  margin-bottom: 10px;
+  text-align: left;
 }
 
 .App-link {
