@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './gfu.png';
 import teampic from './img/team.jpg';
+import workflow from './img/flow.png';
 import './App.css';
 
 export default function App() {
@@ -25,8 +26,10 @@ export default function App() {
           We encourage you to fill out the Project Ideation Form if
           you have questions or project ideas!
         </p>
-        
-        <img src={teampic} className="App-pic" alt="logo" />
+
+        <img src={workflow} className="App-workflow" alt="workflow" />
+
+        <img src={teampic} className="App-pic" alt="team pic" />
         <p>Meet the team!</p>
         <p style={{marginBottom: "5vh"}}>Trey Moen, Natascha Lambing, Wesley Seigneur, Christina Brandão, Adam Hawker</p>
         
