@@ -1,5 +1,6 @@
 import React from 'react';
 import logo from './gfu.png';
+import teampic from './img/team.jpg';
 import './App.css';
 
 export default function App() {
@@ -17,18 +18,21 @@ export default function App() {
           We are a team of five multi-disciplinary engineering,
           Computer Science, and Information Systems students who
           believe that all high school students deserve a quality
-          education even during this time of comprehensive distance
+          education despite comprehensive distance
           learning. Our desire is to serve students by providing 
-          educators like you with tools and resources that enable them to
-          reach their students in meaningful ways.
-        </p>
-        <p>
+          educators like you with tools and resources that enable
+          you to reach your students in meaningful ways.
           We encourage you to fill out the Project Ideation Form if
           you have questions or project ideas!
         </p>
-        <h3>
+        
+        <img src={teampic} className="App-pic" alt="logo" />
+        <p>Meet the team!</p>
+        <p style={{marginBottom: "5vh"}}>Trey Moen, Natascha Lambing, Wesley Seigneur, Christina Brandão, Adam Hawker</p>
+        
+        <h2>
           Resources
-        </h3>
+        </h2>
         <a
           className="App-link"
           href="https://forms.gle/WBk8XgzJiv22jfea7"

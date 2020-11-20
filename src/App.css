@@ -8,6 +8,13 @@
   pointer-events: none;
 }
 
+.App-pic {
+  height: 65vmin;
+  margin: 3vh 0 0 0;
+  border-radius: 8px;
+  pointer-events: none;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -36,11 +43,6 @@
   }
 }
 
-.App-header h3 {
-  margin-top: 1px;
-  margin-bottom: 10px;
-}
-
 .App-header h5 {
   font-size: calc(5px + 2vmin);
 }
@@ -49,6 +51,10 @@
   font-size: calc(7px + 2vmin);
   margin-bottom: 10px;
   text-align: left;
+}
+
+h2, h3, h5 {
+  margin: 2vh 0 2vh 0;
 }
 
 .App-link {
