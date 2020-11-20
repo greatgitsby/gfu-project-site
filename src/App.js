@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './gfu.png';
 import teampic from './img/team.jpg';
+import teampic_masked from './img/team-masked.jpg';
 import workflow from './img/flow.png';
 import { Button } from '@material-ui/core';
 
@@ -31,7 +32,11 @@ export default function App() {
 
         <img src={workflow} className="App-workflow" alt="workflow" />
 
-        <img src={teampic} className="App-pic" alt="team pic" />
+        <div className="App-pic">
+          <img class="bottom" src={teampic} alt="team pic" />
+          <img class="top" src={teampic_masked} alt="team pic w mask" />
+        </div>
+
         <p>Meet the team!</p>
         <p style={{marginBottom: "5vh"}}>Trey Moen, Natascha Lambing, Wesley Seigneur, Christina Brandão, Adam Hawker</p>
         

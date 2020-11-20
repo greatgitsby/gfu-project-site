@@ -3,16 +3,36 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 25vmin;
-  pointer-events: none;
+.App-pic {
+  height: 65vmin;
+  width: 85vmin;
+  margin: 3vh 0 2vh 0;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-.App-pic {
+.App-pic img {
+  position: absolute;
   height: 65vmin;
   width: 85vmin;
   margin: 3vh 0 0 0;
   border-radius: 8px;
+
+  -webkit-transition: opacity 0.5s ease-in-out;
+  -moz-transition: opacity 0.5s ease-in-out;
+  -o-transition: opacity 0.5s ease-in-out;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.App-pic img.top:hover {
+  opacity:0;
+}
+
+.App-logo {
+  height: 25vmin;
   pointer-events: none;
 }
 
