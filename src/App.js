@@ -2,6 +2,8 @@ import React from 'react';
 import logo from './gfu.png';
 import teampic from './img/team.jpg';
 import workflow from './img/flow.png';
+import { Button } from '@material-ui/core';
+
 import './App.css';
 
 export default function App() {
@@ -36,14 +38,16 @@ export default function App() {
         <h2>
           Resources
         </h2>
-        <a
+        <Button
+          variant="contained"
           className="App-link"
+          color="primary"
           href="https://forms.gle/WBk8XgzJiv22jfea7"
           target="_blank"
           rel="noopener noreferrer"
         >
           Project Ideation Form
-        </a>
+          </Button>
         <h5>
           If you have any questions about us, what we are about, 
           or the submission process, contact us at gfuprojects@gmail.com
