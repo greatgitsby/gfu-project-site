@@ -30,19 +30,9 @@ export default function App() {
           you have questions or project ideas!
         </p>
 
-        <img src={workflow} className="App-workflow" alt="workflow" />
-
-        <div className="App-pic">
-          <img class="bottom" src={teampic} alt="team pic" />
-          <img class="top" src={teampic_masked} alt="team pic w mask" />
-        </div>
-
-        <p>Meet the team!</p>
-        <p style={{marginBottom: "5vh"}}>Trey Moen, Natascha Lambing, Wesley Seigneur, Christina Brandão, Adam Hawker</p>
-        
-        <h2>
+        <h3>
           Resources
-        </h2>
+        </h3>
         <Button
           variant="contained"
           className="App-link"
@@ -52,11 +42,21 @@ export default function App() {
           rel="noopener noreferrer"
         >
           Project Ideation Form
-          </Button>
+        </Button>
         <h5>
           If you have any questions about us, what we are about, 
           or the submission process, contact us at gfuprojects@gmail.com
         </h5>
+
+        <img src={workflow} className="App-workflow" alt="workflow" />
+
+        <div className="App-pic">
+          <img class="bottom" src={teampic} alt="team pic" />
+          <img class="top" src={teampic_masked} alt="team pic w mask" />
+        </div>
+
+        <p>Meet the team!</p>
+        <p style={{marginBottom: "5vh"}}>Trey Moen, Natascha Lambing, Wesley Seigneur, Christina Brandão, Adam Hawker</p>
       </header>
     </div>
   );
