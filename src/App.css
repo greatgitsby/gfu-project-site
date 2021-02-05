@@ -4,8 +4,8 @@
 }
 
 .App-pic {
-  height: 65vmin;
-  width: 85vmin;
+  height: 55vmin;
+  width: 75vmin;
   margin: 2vh 0 2vh 0;
   border-radius: 8px;
   display: flex;
@@ -16,8 +16,8 @@
 
 .App-pic img {
   position: absolute;
-  height: 65vmin;
-  width: 85vmin;
+  height: 55vmin;
+  width: 75vmin;
   border-radius: 8px;
 
   -webkit-transition: opacity 0.5s ease-in-out;
@@ -31,12 +31,12 @@
 }
 
 .App-logo {
-  height: 25vmin;
+  height: 15vmin;
   pointer-events: none;
 }
 
 .App-workflow {
-  width: 85vmin;
+  width: 75vmin;
   margin: 4vh 0 4vh 0;
   border-radius: 8px;
   pointer-events: none;
