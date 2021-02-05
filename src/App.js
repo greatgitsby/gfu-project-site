@@ -20,12 +20,9 @@ export default function App() {
         </h3>
         <p>
           We are a team of five multi-disciplinary engineering,
-          Computer Science, and Information Systems students who
-          believe that all high school students deserve a quality
-          education despite comprehensive distance
-          learning. Our desire is to serve students by providing 
-          educators like you with tools and resources that enable
-          you to reach your students in meaningful ways.
+          Computer Science, and Information Systems students whose desire
+          is to serve educators by providing tools and resources that enable
+          them to reach their students in meaningful ways.
           We encourage you to fill out the Project Ideation Form if
           you have questions or project ideas!
         </p>
