@@ -4,6 +4,7 @@ import teampic from './img/team.jpg';
 import teampic_masked from './img/team-masked.jpg';
 import workflow from './img/flow.png';
 import binarybox from './img/binarybox.jpeg';
+import binaryboxschematic from './img/binaryboxschematic.png';
 import { Button } from '@material-ui/core';
 
 import './App.css';
@@ -21,13 +22,13 @@ export default function App() {
         </h3>
         <Button
           variant="contained"
-          className="App-link"
           color="primary"
           href="https://forms.gle/WBk8XgzJiv22jfea7"
           target="_blank"
           rel="noopener noreferrer"
+          size="medium"
         >
-          Project Ideation Form
+          <span>Project Ideation Form</span>
         </Button>
         <h5>
           If you have any questions about us, what we are about,
@@ -43,6 +44,8 @@ export default function App() {
         </p>
 
         <img class="App-pic" src={binarybox} alt="binary box pic" />
+        <img class="App-pic" src={binaryboxschematic} alt="binary box schematic pic" />
+
         <p>
           As an example, we are currently building a small learning device designed to help students understand binary numbers. The client had voiced the difficulty in teaching his students about binary numbers. Our team took his struggle and worked to develop a solution. We completed the brainstorming and early design phases and are finishing the final product; the client will be receiving his complete product soon!
         </p>

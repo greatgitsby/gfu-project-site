@@ -1,17 +1,18 @@
 .App {
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Open Sans', sans-serif;
   text-align: center;
 }
 
 .App-pic {
   height: 55vmin;
   width: 75vmin;
-  margin: 2vh 0 2vh 0;
+  margin: 0 0 2vh 0;
   border-radius: 8px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  object-fit: cover;
 }
 
 .App-pic img {
@@ -19,6 +20,7 @@
   height: 55vmin;
   width: 75vmin;
   border-radius: 8px;
+  object-fit: scale-down;
 
   -webkit-transition: opacity 0.5s ease-in-out;
   -moz-transition: opacity 0.5s ease-in-out;
@@ -50,16 +52,27 @@
   justify-content: center;
   font-size: calc(15px + 2vmin);
   color: white;
-  padding: 5vw 8vw 8vw 8vw;
+  padding: 8vw 8vw 8vw 8vw;
 }
 
 .App-header h5 {
-  font-size: calc(5px + 2vmin);
+  font-size: calc(7px + 2vmin);
 }
 
 .App-header p {
   font-size: calc(7px + 2vmin);
   margin: 2vh 0 2vh 0;
+  width: 75vmin;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.App-header span {
+  font-size: calc(6px + 1.5vmin);
+  margin: 0.5vh 0 0.5vh 0;
+  width: 35vw;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -68,10 +81,7 @@
 
 h2, h3, h5 {
   margin: 2vh 0 2vh 0;
-}
-
-.App-link {
-  color: #8bb0d3;
+  width: 75vmin;
 }
 
 body {
