@@ -39,7 +39,7 @@ export default function App() {
           Computer Science, and Information Systems students whose desire
           is to serve educators by providing tools and resources that enable
           them to reach their students in meaningful ways.
-          We encourage you to fill out the Project Ideation Form if
+          We encourage you to fill out the Project Ideation Form linked above if
           you have questions or project ideas!
         </p>
 
