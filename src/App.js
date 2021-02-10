@@ -30,7 +30,7 @@ export default function App() {
           Project Ideation Form
         </Button>
         <h5>
-          If you have any questions about us, what we are about, 
+          If you have any questions about us, what we are about,
           or the submission process, contact us at <strong>gfuprojects@gmail.com</strong>
         </h5>
         <p>
@@ -55,7 +55,7 @@ export default function App() {
         </div>
 
         <p>Meet the team!</p>
-        <p style={{marginBottom: "5vh"}}>Trey Moen, Natascha Lambing, Wesley Seigneur, Christina Brandão, Adam Hawker</p>
+        <p style={{marginTop: 0}}>Trey Moen, Natascha Lambing, Wesley Seigneur, Christina Brandão, Adam Hawker</p>
       </header>
     </div>
   );
