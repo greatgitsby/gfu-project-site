@@ -4,9 +4,9 @@
 }
 
 .App-pic {
-  height: 55vmin;
+  height: 45vmin;
   width: 75vmin;
-  margin: 0 0 2vh 0;
+  margin: 3vh 0 2vh 0;
   border-radius: 8px;
   display: flex;
   flex-direction: column;
@@ -17,15 +17,16 @@
 
 .App-pic img {
   position: absolute;
-  height: 55vmin;
+  height: 45vmin;
   width: 75vmin;
   border-radius: 8px;
-  object-fit: scale-down;
 
   -webkit-transition: opacity 0.5s ease-in-out;
   -moz-transition: opacity 0.5s ease-in-out;
   -o-transition: opacity 0.5s ease-in-out;
   transition: opacity 0.5s ease-in-out;
+
+  object-fit: cover;
 }
 
 .App-pic img.top:hover {
@@ -39,7 +40,7 @@
 
 .App-workflow {
   width: 75vmin;
-  margin: 4vh 0 4vh 0;
+  margin: 3vh 0 4vh 0;
   border-radius: 8px;
   pointer-events: none;
 }
@@ -71,7 +72,7 @@
 
 .App-header span {
   font-size: calc(6px + 1.5vmin);
-  margin: 0.5vh 0 0.5vh 0;
+  margin: 0.25vh 2vw 0.25vh 2vw;
   width: 35vw;
   display: flex;
   flex-direction: column;
@@ -85,5 +86,5 @@ h2, h3, h5 {
 }
 
 body {
-  background-color: #282c34;
+  background-color: #2b3444;
 }

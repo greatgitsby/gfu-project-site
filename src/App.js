@@ -30,12 +30,12 @@ export default function App() {
         >
           <span>Project Ideation Form</span>
         </Button>
-        <h5>
+        <p style={{fontSize: "2vw"}}>
           If you have any questions about us, what we are about,
-          or the submission process, contact us at <strong>gfuprojects@gmail.com</strong>
-        </h5>
+          or the submission process, contact us at: gfuprojects@gmail.com
+        </p>
         <p>
-          We are a team of five multi-disciplinary engineering,
+          Welcome to EPIC. We are a team of five multi-disciplinary engineering,
           Computer Science, and Information Systems students whose desire
           is to serve educators by providing tools and resources that enable
           them to reach their students in meaningful ways.
@@ -47,7 +47,13 @@ export default function App() {
         <img class="App-pic" src={binaryboxschematic} alt="binary box schematic pic" />
 
         <p>
-          As an example, we are currently building a small learning device designed to help students understand binary numbers. The client had voiced the difficulty in teaching his students about binary numbers. Our team took his struggle and worked to develop a solution. We completed the brainstorming and early design phases and are finishing the final product; the client will be receiving his complete product soon!
+          As an example, we are currently building a small learning device designed to
+          help students understand binary numbers. The client had voiced the difficulty
+          in teaching his students about binary numbers. Our team took his struggle
+          and worked to develop a solution. We completed the brainstorming and early
+          design phases and are finishing the final product; the client will be
+          receiving his complete product soon! Above you can see two of our team
+          members working on the binary box as well as a schematic of the wiring.
         </p>
 
         <img src={workflow} className="App-workflow" alt="workflow" />
