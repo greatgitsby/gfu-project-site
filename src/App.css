@@ -15,6 +15,7 @@
 }
 
 .App-pic img {
+  object-fit: cover;
   position: absolute;
   height: 55vmin;
   width: 75vmin;
