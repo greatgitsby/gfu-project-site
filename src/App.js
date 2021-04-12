@@ -6,6 +6,7 @@ import teampic_masked from './img/team-masked.jpg';
 import binarybox_final from './img/binarybox-final.jpg';
 import workflow from './img/flow.png';
 import binarybox from './img/binarybox.jpeg';
+import binaryboxschematic from './img/binaryboxschematic.png';
 import { Button } from '@material-ui/core';
 
 import './App.css';
@@ -23,24 +24,24 @@ export default function App() {
         </h3>
         <Button
           variant="contained"
-          className="App-link"
           color="primary"
           href="https://forms.gle/WBk8XgzJiv22jfea7"
           target="_blank"
           rel="noopener noreferrer"
+          size="medium"
         >
-          Project Ideation Form
+          <span>Project Ideation Form</span>
         </Button>
-        <h5>
-          If you have any questions about us, what we are about, 
-          or the submission process, contact us at <strong>gfuprojects@gmail.com</strong>
-        </h5>
+        <p style={{fontSize: "2vw"}}>
+          If you have any questions about us, what we are about,
+          or the submission process, contact us at: gfuprojects@gmail.com
+        </p>
         <p>
-          We are a team of five multi-disciplinary engineering,
+          Welcome to EPIC. We are a team of five multi-disciplinary engineering,
           Computer Science, and Information Systems students whose desire
           is to serve educators by providing tools and resources that enable
           them to reach their students in meaningful ways.
-          We encourage you to fill out the Project Ideation Form if
+          We encourage you to fill out the Project Ideation Form linked above if
           you have questions or project ideas!
         </p>
 
@@ -57,7 +58,7 @@ export default function App() {
         </div>
 
         <p>Meet the team!</p>
-        <p style={{marginBottom: "5vh"}}>Trey Moen, Natascha Lambing, Wesley Seigneur, Christina Brandão, Adam Hawker</p>
+        <p style={{marginTop: 0}}>Trey Moen, Natascha Lambing, Wesley Seigneur, Christina Brandão, Adam Hawker</p>
       </header>
     </div>
   );
