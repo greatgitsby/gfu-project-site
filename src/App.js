@@ -1,12 +1,9 @@
 import React from 'react';
 import logo from './gfu.png';
-import teampic from './img/team.jpg';
 import teampic_new from './img/team-new.jpg';
-import teampic_masked from './img/team-masked.jpg';
 import binarybox_final from './img/binarybox-final.jpg';
 import workflow from './img/flow.png';
-import binarybox from './img/binarybox.jpeg';
-import binaryboxschematic from './img/binaryboxschematic.png';
+import binarybox_gif from './img/binarybox.gif';
 import { Button } from '@material-ui/core';
 
 import './App.css';
@@ -45,7 +42,11 @@ export default function App() {
           you have questions or project ideas!
         </p>
 
-        <img class="App-pic" src={binarybox_final} alt="binary box pic" />
+        <div className="App-pic">
+          <img class="bottom" src={binarybox_gif} alt="team pic" />
+          <img class="top" src={binarybox_final} alt="team pic w mask" />
+        </div>
+        
         <p>
           As an example, we are currently building a small learning device designed to help students understand binary numbers. The client had voiced the difficulty in teaching his students about binary numbers. Our team took his struggle and worked to develop a solution. We completed the brainstorming, early design phases, and are finished the final product; the client will be receiving his complete product soon!
         </p>
