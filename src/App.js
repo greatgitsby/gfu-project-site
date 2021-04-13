@@ -48,7 +48,7 @@ export default function App() {
         </div>
         
         <p>
-          As an example, we are currently building a small learning device designed to help students understand binary numbers. The client had voiced the difficulty in teaching his students about binary numbers. Our team took his struggle and worked to develop a solution. We completed the brainstorming, early design phases, and are finished the final product; the client will be receiving his complete product soon!
+          As an example, we are currently building a small learning device designed to help students understand binary numbers. The client had voiced the difficulty in teaching his students about binary numbers. Our team took his struggle and worked to develop a solution. We completed the brainstorming, early design phases, and have finished the final product; the client will be receiving his complete product soon!
         </p>
 
         <img src={workflow} className="App-workflow" alt="workflow" />
